@@ -7,5 +7,6 @@ namespace :project do
 
     `git fetch upstream`
     `git rebase upstream/master`
+    `bundle install`
   end
 end
