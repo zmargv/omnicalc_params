@@ -111,7 +111,6 @@ The way it should work is:
     - If I submit that form, I should see the **monthly** payment due given the values that I entered.
  - If I visit `/random/new`, I should see a form with labels and inputs to enter two numbers, a minimum and a maximum.
     - If I submit that form, I should see a random number that falls between the numbers that I entered.
- - On the random number results page, add a link to _instantly_ re-calculate a new random number _from within the same range_, **without the user having to re-enter the minimum and maximum into the form again**.
 
 ## Part III: More Practice
 
