@@ -29,7 +29,7 @@ class CalculationsController < ApplicationController
         render("calculations/square_form_template.html.erb")
     end
     def square_form_results
-        @result = params["user_number"].to_i**2
+        @result = params["user_number"].to_f**2
         render("calculations/square_form_results_template.html.erb")
     end
     
@@ -37,7 +37,7 @@ class CalculationsController < ApplicationController
         render("calculations/sqrt_form_template.html.erb")
     end
     def sqrt_form_results
-        @result = params["user_number"].to_i**(0.5)
+        @result = params["user_number"].to_f**(0.5)
         render("calculations/sqrt_form_results_template.html.erb")
     end
     
