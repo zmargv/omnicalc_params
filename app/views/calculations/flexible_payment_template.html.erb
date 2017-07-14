@@ -1,0 +1,3 @@
+<h1>Flexible Payment</h1>
+
+<p>A <%= @years %> year loan of $<%= number_with_precision(@amount, :precision => 0, :delimiter => ',') %>, with an annual interest rate of <%= number_with_precision(@rate, :precision => 2, :delimiter => ',') %>%, requires a monthly payment of $<%= number_with_precision(@result, :precision => 2, :delimiter => ',') %>.</p>

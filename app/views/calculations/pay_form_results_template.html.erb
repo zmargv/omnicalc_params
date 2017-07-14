@@ -1,0 +1,28 @@
+<h1>Payment Results</h1>
+
+<dl>
+  <dt>
+    APR
+  </dt>
+  <dd>
+    <%= number_with_precision(@rate, :precision => 2, :delimiter => ',') %>%
+  </dd>
+  <dt>
+    Number of years
+  </dt>
+  <dd>
+    <%= @years %>
+  </dd>
+  <dt>
+    Principal
+  </dt>
+  <dd>
+    $<%= number_with_precision(@amount, :precision => 2, :delimiter => ',') %>
+  </dd>
+  <dt>
+    Payment
+  </dt>
+  <dd>
+    $<%= number_with_precision(@result, :precision => 2, :delimiter => ',') %>
+  </dd>
+</dl>
